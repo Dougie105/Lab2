@@ -46,3 +46,14 @@ if(married === 'no'){
   alert('Correct! for 5 years!');
 }
 
+//Question 5
+
+var codeWork = prompt('Do I like coding');
+
+codeWork = codeWork.toUpperCase();
+
+if(codeWork === 'yes'){
+  alert('WRONG!!!!! I LOVE it');
+} else {
+  alert('Correct! Because I love it!');
+}
