@@ -62,3 +62,5 @@ if(codeWork === 'yes' || codeWork === 'y'){
 } else {
   alert('Correct! Because I love it!');
 }
+
+alert('Thank you for playing ' + aboutYou + '! Have a wonderful day!');
