@@ -17,3 +17,13 @@ if(tattoo === 'yes') {
 } else {
   alert('Wrong!!');
 }
+
+var piercing = prompt('Do I have any piercings?');
+
+piercing = piercing.toLowerCase();
+
+if(piercing === 'no'){
+  alert('Correct, I dont have any');
+} else {
+  alert('Wrong!!!');
+}
