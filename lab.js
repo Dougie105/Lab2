@@ -1,3 +1,5 @@
+//QUESTION 1
+
 var military = prompt('Was I in the military?');
 
 military = military.toLowerCase();
@@ -7,6 +9,8 @@ if(military === 'yes') {
 } else {
   alert('Wrong!');
 }
+
+//QUESTION 2
 
 var tattoo = prompt('Do I have tattoos?');
 
@@ -18,6 +22,8 @@ if(tattoo === 'yes') {
   alert('Wrong!!');
 }
 
+//QUESTION 3
+
 var piercing = prompt('Do I have any piercings?');
 
 piercing = piercing.toLowerCase();
@@ -27,3 +33,16 @@ if(piercing === 'no'){
 } else {
   alert('Wrong!!!');
 }
+
+//QUESTION 4
+
+var married = prompt('Am I married?');
+
+married = married.toUpperCase();
+
+if(married === 'no'){
+  alert('Wrong!!!!');
+} else {
+  alert('Correct! for 5 years!');
+}
+
