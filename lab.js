@@ -83,36 +83,37 @@ function questionFive(){
 }
 console.log(questionFive);
 
-// //Question 6
+//Question 6
+function questionSix(){
 
+var answer = 7;
+//console.log('Guess a number 1-10, you have 4 attempts');
+alert('Guess a number 1-10, you have 4 attempts');
 
-// var answer = 7;
-// //console.log('Guess a number 1-10, you have 4 attempts');
-// alert('Guess a number 1-10, you have 4 attempts');
+for (var i=0; i<4; i++) {
+  //console.log('Pick a number!');
+  var attempt = prompt('Pick a number!');
+  attempt = parseInt(attempt);
 
-// for (var i=0; i<4; i++) {
-//   //console.log('Pick a number!');
-//   var attempt = prompt('Pick a number!');
-//   attempt = parseInt(attempt);
-
-//   if (attempt === answer) {
-//     //console.log('YAAAY!');
-//     alert('YAAAY!');
-//     break;
-//   }
-//   if (attempt > answer) {
-//     //console.log('Too high, try again!');
-//     alert('Too high, try again!');
-//   }
-//   if (attempt < answer) {
-//     //console.log('Too low, Try again!');
-//     alert('Too low, Try again!');
-//   }
-//   if (i === 3) {
-//     //console.log('GAME OVER! The Number Is 7');
-//     alert('GAME OVER! The Number Is 7');
-//   }
-// }
+  if (attempt === answer) {
+    //console.log('YAAAY!');
+    alert('YAAAY!');
+    break;
+  }
+  if (attempt > answer) {
+    //console.log('Too high, try again!');
+    alert('Too high, try again!');
+  }
+  if (attempt < answer) {
+    //console.log('Too low, Try again!');
+    alert('Too low, Try again!');
+  }
+  if (i === 3) {
+    //console.log('GAME OVER! The Number Is 7');
+    alert('GAME OVER! The Number Is 7');
+  }
+}
+}
 
 // //Question 7
 
