@@ -1,77 +1,87 @@
 'use strict';
 
-// var aboutYou = prompt('What is your name?');
-// alert('Hello ' + aboutYou + '! Can you get all five of these questions right?');
+var aboutYou = prompt('What is your name?');
+alert('Hello ' + aboutYou + '! Can you get all five of these questions right?');
 
-// //QUESTION 1
+//QUESTION 1
+function questionOne(){
 
-// var military = prompt('Was I in the military?');
+  var military = prompt('Was I in the military?');
+  military = military.toLowerCase();
+  if(military === 'yes'|| military === 'y') {
+  // console.log('Correct!');
+    alert('Correct!');
+  } else {
+  // console.log('Wrong!');
+    alert('Wrong!');
+  }
+}
+//console.log(questionOne);
 
-// military = military.toLowerCase();
+//QUESTION 2
+function questionTwo(){
 
-// if(military === 'yes'|| military === 'y') {
-//   // console.log('Correct!');
-//   alert('Correct!');
-// } else {
-//   // console.log('Wrong!');
-//   alert('Wrong!');
-// }
+  var tattoo = prompt('Do I have tattoos?');
+  tattoo = tattoo.toLowerCase();
+  if(tattoo === 'yes' || tattoo === 'y') {
+  // console.log('Correct!');
+    alert('Sure Do, two on my right arm.');
+  } else {
+  // console.log('Wrong!');
+    alert('Wrong!!');
+  }
+}
+//console.log(questionTwo);
 
-// //QUESTION 2
+//QUESTION 3
+function questionThree(){
+  var piercing = prompt('Do I have any piercings?');
 
-// var tattoo = prompt('Do I have tattoos?');
+  piercing = piercing.toLowerCase();
 
-// tattoo = tattoo.toLowerCase();
+  if(piercing === 'no' || piercing === 'n'){
+  // console.log('Correct!');
+    alert('Correct, I dont have any');
+  } else {
+  // console.log('Wrong!');
+    alert('Wrong!!!');
+  }
+}
+//console.log(questionThree);
 
-// if(tattoo === 'yes' || tattoo === 'y') {
-//   // console.log('Correct!');
-//   alert('Sure Do, two on my right arm.');
-// } else {
-//   // console.log('Wrong!');
-//   alert('Wrong!!');
-// }
+//QUESTION 4
+function quesionFour(){
 
-// //QUESTION 3
+  var married = prompt('Am I married?');
 
-// var piercing = prompt('Do I have any piercings?');
+  married = married.toUpperCase();
 
-// piercing = piercing.toLowerCase();
+  if(married === 'NO' || married === 'N'){
+  // console.log('Wrong!');
+    alert('Wrong!!!!');
+  } else {
+  // console.log('Correct!')
+    alert('Correct! for 5 years!');
+  }
+}
+//console.log(quesionFour);
 
-// if(piercing === 'no' || piercing === 'n'){
-//   // console.log('Correct!');
-//   alert('Correct, I dont have any');
-// } else {
-//   // console.log('Wrong!');
-//   alert('Wrong!!!');
-// }
+//Question 5
+function questionFive(){
 
-// //QUESTION 4
+  var codeWork = prompt('Do I like coding');
 
-// var married = prompt('Am I married?');
+  codeWork = codeWork.toUpperCase();
 
-// married = married.toUpperCase();
-
-// if(married === 'NO' || married === 'N'){
-//   // console.log('Wrong!');
-//   alert('Wrong!!!!');
-// } else {
-//   // console.log('Correct!')
-//   alert('Correct! for 5 years!');
-// }
-
-// //Question 5
-
-// var codeWork = prompt('Do I like coding');
-
-// codeWork = codeWork.toUpperCase();
-
-// if(codeWork === 'YES' || codeWork === 'Y'){
-//   // console.log('Correct!');
-//   alert('Correct!!!!! I LOVE IT');
-// } else {
-//   // console.log('Wrong!');
-//   alert('Wrong!!!!!');
-// }
+  if(codeWork === 'YES' || codeWork === 'Y'){
+  // console.log('Correct!');
+    alert('Correct!!!!! I LOVE IT');
+  } else {
+  // console.log('Wrong!');
+    alert('Wrong!!!!!');
+  }
+}
+console.log(questionFive);
 
 // //Question 6
 
@@ -104,24 +114,24 @@
 //   }
 // }
 
-//Question 7
+// //Question 7
 
-var states = ['Indiana', 'Ohio', 'Florida', 'Virginia', 'Georgia'];
+// var states = ['Indiana', 'Ohio', 'Florida', 'Virginia', 'Georgia'];
 
-//console.log('Guess a state that I have lived in! You get 6 attempts.');
-alert('Guess a state that I have lived in! You get 6 attempts.');
+// //console.log('Guess a state that I have lived in! You get 6 attempts.');
+// alert('Guess a state that I have lived in! You get 6 attempts.');
 
-for (var s=0; s<=states.length ; s++) {
-  //console.log('Try your luck');
-  var guess = prompt('Try your luck');
-  if (guess === states) {
-  //console.log('YAAAY! ' + 'Ive lived in ' + states);
-    alert('YAAAY! ' + 'Ive lived in ' + states);
-  } else
-  //console.log('Try Again!')
-    alert('Try Again!');
-  if (s === 5) {
-  //console.log('GAME OVER! Ive lived in ' + states);
-    alert('GAME OVER! Ive lived in ' + states);
-  }
-}
+// for (var s=0; s<=states.length ; s++) {
+//   //console.log('Try your luck');
+//   var guess = prompt('Try your luck');
+//   if (guess === states) {
+//   //console.log('YAAAY! ' + 'Ive lived in ' + states);
+//     alert('YAAAY! ' + 'Ive lived in ' + states);
+//   } else
+//   //console.log('Try Again!')
+//     alert('Try Again!');
+//   if (s === 5) {
+//   //console.log('GAME OVER! Ive lived in ' + states);
+//     alert('GAME OVER! Ive lived in ' + states);
+//   }
+// }
