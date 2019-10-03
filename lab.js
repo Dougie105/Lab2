@@ -61,17 +61,17 @@
 
 // //Question 5
 
-// var codeWork = prompt('Do I like coding');
+var codeWork = prompt('Do I like coding');
 
-// codeWork = codeWork.toUpperCase();
+codeWork = codeWork.toUpperCase();
 
-// if(codeWork === 'YES' || codeWork === 'Y'){
-//   // console.log('Correct!');
-//   alert('Correct!!!!! I LOVE IT');
-// } else {
-//   // console.log('Wrong!');
-//   alert('Wrong!!!!!');
-// }
+if(codeWork === 'YES' || codeWork === 'Y'){
+  // console.log('Correct!');
+  alert('Correct!!!!! I LOVE IT');
+} else {
+  // console.log('Wrong!');
+  alert('Wrong!!!!!');
+}
 
 //Question 6
 
