@@ -1,65 +1,65 @@
-// 'use strict';
+'use strict';
 
-// var aboutYou = prompt('What is your name?');
-// alert('Hello ' + aboutYou + '! Can you get all five of these questions right?');
+var aboutYou = prompt('What is your name?');
+alert('Hello ' + aboutYou + '! Can you get all five of these questions right?');
 
-// //QUESTION 1
+//QUESTION 1
 
-// var military = prompt('Was I in the military?');
+var military = prompt('Was I in the military?');
 
-// military = military.toLowerCase();
+military = military.toLowerCase();
 
-// if(military === 'yes'|| military === 'y') {
-//   // console.log('Correct!');
-//   alert('Correct!');
-// } else {
-//   // console.log('Wrong!');
-//   alert('Wrong!');
-// }
+if(military === 'yes'|| military === 'y') {
+  // console.log('Correct!');
+  alert('Correct!');
+} else {
+  // console.log('Wrong!');
+  alert('Wrong!');
+}
 
-// //QUESTION 2
+//QUESTION 2
 
-// var tattoo = prompt('Do I have tattoos?');
+var tattoo = prompt('Do I have tattoos?');
 
-// tattoo = tattoo.toLowerCase();
+tattoo = tattoo.toLowerCase();
 
-// if(tattoo === 'yes' || tattoo === 'y') {
-//   // console.log('Correct!');
-//   alert('Sure Do, two on my right arm.');
-// } else {
-//   // console.log('Wrong!');
-//   alert('Wrong!!');
-// }
+if(tattoo === 'yes' || tattoo === 'y') {
+  // console.log('Correct!');
+  alert('Sure Do, two on my right arm.');
+} else {
+  // console.log('Wrong!');
+  alert('Wrong!!');
+}
 
-// //QUESTION 3
+//QUESTION 3
 
-// var piercing = prompt('Do I have any piercings?');
+var piercing = prompt('Do I have any piercings?');
 
-// piercing = piercing.toLowerCase();
+piercing = piercing.toLowerCase();
 
-// if(piercing === 'no' || piercing === 'n'){
-//   // console.log('Correct!');
-//   alert('Correct, I dont have any');
-// } else {
-//   // console.log('Wrong!');
-//   alert('Wrong!!!');
-// }
+if(piercing === 'no' || piercing === 'n'){
+  // console.log('Correct!');
+  alert('Correct, I dont have any');
+} else {
+  // console.log('Wrong!');
+  alert('Wrong!!!');
+}
 
-// //QUESTION 4
+//QUESTION 4
 
-// var married = prompt('Am I married?');
+var married = prompt('Am I married?');
 
-// married = married.toUpperCase();
+married = married.toUpperCase();
 
-// if(married === 'NO' || married === 'N'){
-//   // console.log('Wrong!');
-//   alert('Wrong!!!!');
-// } else {
-//   // console.log('Correct!')
-//   alert('Correct! for 5 years!');
-// }
+if(married === 'NO' || married === 'N'){
+  // console.log('Wrong!');
+  alert('Wrong!!!!');
+} else {
+  // console.log('Correct!')
+  alert('Correct! for 5 years!');
+}
 
-// //Question 5
+//Question 5
 
 var codeWork = prompt('Do I like coding');
 
@@ -92,5 +92,8 @@ for (var i=0; i<4; i++) {
   }
   if (attempt < answer) {
     alert('Too low, Try again!');
+  }
+  if (i === 3) {
+    alert('GAME OVER! The Number Is 7');
   }
 }
