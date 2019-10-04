@@ -149,13 +149,13 @@ function questionSeven() {
 }
 
 
-questionOne();
-questionTwo();
-questionThree();
-quesionFour();
-questionFive();
-questionSix();
-questionSeven();
+// questionOne();
+// questionTwo();
+// questionThree();
+// quesionFour();
+// questionFive();
+// questionSix();
+// questionSeven();
 
 alert('You got ' + (Number(score[0]) + Number(score[1]) + Number(score[2]) + Number(score[3]) + Number(score[4]) + Number(score[5]) + Number(score[6])) + ' out of ' + score.length);
 

@@ -5,7 +5,9 @@ h1{
 
 h2{
     text-align: center;
-    color: darkblue
+    color: darkblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 body{
@@ -18,4 +20,8 @@ footer{
     text-align: center;
     color: brown;
     background-color: aquamarine;
+}
+
+.list{
+    text-align: center;
 }
